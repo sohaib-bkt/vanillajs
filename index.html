@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <form id="form1">
+            <h3>CHOSE PASSWORD LENGHT</h3>
+            <input type="number" placeholder="LENGHT" required id="input1">
+            <div class="box-btn">
+                <button type="button" id="next1">Next</button>
+            </div>
+        </form>
+
+        <form id="form2">
+            <h3>CHOSE A KEY </h3>
+            <input type="text" placeholder="KEY" required id="input2">
+            <div class="box-btn">
+                <button type="button" id="back1">Previus</button>
+                <button type="button" id="next2">Next</button>
+            </div>
+        </form>
+
+        <form id="form3">
+            <h3>GENERATE THE PASSWORD</h3>
+            <input type="text" placeholder="YOUR PASSWORD" id="input3">
+            <div class="box-btn">
+                <button type="button" id="back2">Previus</button>
+                <button type="button" id="next3" onclick="generate()">GENERATE</button>
+            </div>
+        </form>
+
+        <div class="step-row">
+            <div id="progresse"></div>
+            <div class="step-col" id="step1"><small>step 1</small></div>
+            <div class="step-col" id="step2"><small>step 2</small></div>
+            <div class="step-col" id="step3"><small>step 3</small></div>
+
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+    
+    
+</body>
+</html>
