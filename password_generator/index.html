@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <title>Document</title>
 </head>
 <body>
@@ -27,7 +28,14 @@
 
         <form id="form3">
             <h3>GENERATE THE PASSWORD</h3>
-            <input type="text" placeholder="YOUR PASSWORD" id="input3">
+            <div id="form33">
+                <input type="text" placeholder="YOUR PASSWORD" id="input3">
+                <div style="position: relative;">
+                    <i class="fa-solid fa-copy" id="copy" onclick="copy_pass()"></i>
+                    <div id="copy-message" class="copy-message">copied!</div> 
+                </div>
+            </div>
+            
             <div class="box-btn">
                 <button type="button" id="back2">Previus</button>
                 <button type="button" id="next3" onclick="generate()">GENERATE</button>

@@ -68,3 +68,15 @@ back2.onclick = function() {
     progresse.style.width = '240px';
     
 }
+
+const copyMessage = document.getElementById('copy-message');
+
+function copy_pass(){
+    box.select();
+    document.execCommand('copy');
+    copyMessage.style.display = 'block';
+    setTimeout(() => {
+        copyMessage.style.display = 'none';
+    }, 2000);
+
+}

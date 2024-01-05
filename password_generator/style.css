@@ -81,6 +81,16 @@ form input{
     
 }
 
+#form33{   
+    margin-top: 20px;
+    color: #333;   
+    width: 100%;
+    font-weight: 30px;  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
 .step-row{
     width: 360px;
     height: 40px;
@@ -105,4 +115,21 @@ form input{
     height: 100%;
     width: 120px;
     background:linear-gradient(to right,#39A7FF,#1b65a1);
+}
+
+#copy{
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.copy-message {
+    display: none;
+    position: absolute;
+    background-color: #39A7FF;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
 }
