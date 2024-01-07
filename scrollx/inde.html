@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body{
+      background-color: #EBE3D5;
+    }
+    .gallery{
+      width: 900px;
+      display: flex;
+      overflow-x: scroll;
+      scroll-behavior: smooth;
+    }
+    .gallery::-webkit-scrollbar{
+      display: none;
+    }
+    .gallery div{
+      display: grid;
+      grid-template-columns: auto auto auto;
+      padding: 10px;
+      flex: none;
+
+    }
+    .container{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 10% auto;
+    }
+    .gallery div img{
+      width: 100%;
+    }
+    #scrollRight , #scrollLeft{
+      background-color: #776B5D;
+      font-size: 20px;
+      border: 0;
+      padding: 10px 20px;
+      outline: none;
+      border-radius: 10px;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <button id="scrollLeft">left</button>
+    <div class="gallery">
+      <div>
+        <img src="images/658997544ace0one.png" alt="">
+        <img src="images/6589996f1f7cctwo.png" alt="">
+        <img src="images/65899a8ba5909tree.png" alt="">
+      </div>
+      <div>
+        <img src="images/65899af984ea5four.png" alt="">
+        <img src="images/65899b900b76ffive.png" alt="">
+        <img src="images/65899cc774943six.png" alt="">
+
+      </div>
+    </div>
+    <button id="scrollRight">right</button>
+  </div>
+
+  <script>
+    let gallery = document.querySelector('.gallery');
+    
+    
+    // Scroll right
+    document.getElementById('scrollRight').addEventListener('click', function () {
+      gallery.style.scrollBehavior = 'smooth';
+      gallery.scrollLeft += 300;
+      
+    });
+
+    // Scroll left
+    document.getElementById('scrollLeft').addEventListener('click', function () {
+      gallery.style.scrollBehavior = 'smooth';
+      gallery.scrollLeft -= 300;
+      
+    });
+
+
+  </script>
+
+</body>
+</html>
