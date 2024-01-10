@@ -1,10 +1,13 @@
 # I created several mini-projects using HTML, CSS, and JavaScript:
 
-## password_generator :
-[password_generator](https://sohaib-bkt.github.io/vanillajs/password_generator/)
+## password generator :
+[Go For It](https://sohaib-bkt.github.io/vanillajs/password_generator/)
 
 ## Gallery Slider :
-[Gallery](https://sohaib-bkt.github.io/vanillajs/scrollx/)
+[Go For It](https://sohaib-bkt.github.io/vanillajs/scrollx/)
 
 ## Quiz App :
-[quizzapp](https://sohaib-bkt.github.io/vanillajs/quizzapp/)
+[Go For It](https://sohaib-bkt.github.io/vanillajs/quizzapp/)
+
+## Form Validation :
+[Go For It](https://sohaib-bkt.github.io/vanillajs/formValidation/)
