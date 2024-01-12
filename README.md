@@ -11,3 +11,6 @@
 
 ## Form Validation :
 [Go For It](https://sohaib-bkt.github.io/vanillajs/formValidation/)
+
+## To-Do App
+[Go For It](https://sohaib-bkt.github.io/vanillajs/To-Do-App/)
